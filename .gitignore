@@ -1,0 +1,6 @@
+# npm pack cache (local only)
+.npm-cache/
+*.tgz
+
+# node
+node_modules/
