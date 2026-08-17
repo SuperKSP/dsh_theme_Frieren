@@ -1,0 +1,29 @@
+{
+  "id": "frieren",
+  "name": "葬送的芙莉莲",
+  "nameEn": "Frieren: Beyond Journey's End",
+  "author": "dsh-frieren",
+  "tagline": "羊皮纸与金线、魔法阵与花田的悠长旅途",
+  "description": "一套面向 DeepSeek Harness WebUI 的芙莉莲主题皮肤。以暖羊皮纸(亮色)与深林墨色(暗色)为基底，用柔金、鼠尾草绿和花瓣粉构成可热切换的 UI 覆盖层；手绘 SVG 魔法阵做水印与加载意象，角落以魔法书纹饰装点，花瓣缓缓飘落。纯展示层客户端插件，卸载即复原。",
+  "tags": [
+    "anime",
+    "frieren",
+    "fantasy",
+    "gold",
+    "sage",
+    "parchment",
+    "journey"
+  ],
+  "accent": "#b5853a",
+  "bodyAttr": "data-dsh-frieren",
+  "package": "dsh-client-ui-skin-frieren",
+  "wiring": {
+    "id": "ui-skin-frieren",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "preview/light.svg",
+    "dark": "preview/dark.svg"
+  },
+  "order": 1
+}
