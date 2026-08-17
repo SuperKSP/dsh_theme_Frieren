@@ -43,13 +43,19 @@ node D:\harness\_plugins_src\dsh-client-ui-skin-frieren\tools\embed-art.mjs
 
 ## 安装
 
-### 方式一：本地目录（推荐，本机开发版）
+### 方式一：GitHub（推荐，官方发布地址）
+
+```powershell
+dsh plugin --profile web add https://github.com/SuperKSP/dsh_theme_Frieren
+```
+
+### 方式二：本地目录（本机开发版）
 
 ```powershell
 dsh plugin --profile web add D:\harness\_plugins_src\dsh-client-ui-skin-frieren
 ```
 
-### 方式二：tarball（与 dsh-vision-any 相同的安装模式）
+### 方式三：tarball（与 dsh-vision-any 相同的安装模式）
 
 ```powershell
 dsh plugin --profile web add D:\harness\_plugins_src\dsh-client-ui-skin-frieren-0.1.0.tgz
