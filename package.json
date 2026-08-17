@@ -1,0 +1,49 @@
+{
+  "name": "dsh-client-ui-skin-frieren",
+  "description": "葬送的芙莉莲主题皮肤 — Frieren-themed skin for the DeepSeek Harness (DSH) web GUI: parchment & gold design tokens, hand-drawn magic-circle SVG art, drifting flower petals and grimoire corner ornaments. Pure client-side presentation plugin (no model requests, no services).",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "skin",
+    "theme",
+    "frieren",
+    "sousou-no-frieren",
+    "anime",
+    "fantasy"
+  ],
+  "license": "MIT",
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "skin.json",
+    "preview",
+    "persona",
+    "tests",
+    "tools",
+    "assets",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ]
+}
