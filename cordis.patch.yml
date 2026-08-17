@@ -1,0 +1,8 @@
+# dsh-client-ui-skin-frieren bundle patch: inserts its public dsh.client entry
+# into the web plugin roster. Install with
+#   dsh plugin --profile web add D:\harness\_plugins_src\dsh-client-ui-skin-frieren
+# (or `pnpm add file:.../dsh-client-ui-skin-frieren-0.1.0.tgz` in the web profile),
+# then restart `dsh web` and hard-refresh the browser (Ctrl+Shift+R).
+- insert:
+    - id: ui-skin-frieren
+      name: dsh-client-ui-skin-frieren
