@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151b10"/>
+      <stop offset="1" stop-color="#10150a"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" fill="url(#bg)"/>
+  <!-- sidebar -->
+  <rect x="0" y="0" width="176" height="420" fill="#161b11" stroke="#3a4a2c" stroke-width="1"/>
+  <circle cx="24" cy="26" r="10" fill="#b98a3e"/>
+  <rect x="42" y="19" width="90" height="14" rx="7" fill="#3c3325"/>
+  <rect x="14" y="58" width="148" height="30" rx="8" fill="#b98a3e"/>
+  <rect x="14" y="100" width="120" height="12" rx="6" fill="#2b3524"/>
+  <rect x="14" y="124" width="132" height="12" rx="6" fill="#2b3524"/>
+  <rect x="14" y="148" width="110" height="12" rx="6" fill="#2b3524"/>
+  <rect x="14" y="172" width="126" height="12" rx="6" fill="#2b3524"/>
+  <!-- magic circle watermark -->
+  <g transform="translate(560,320)" opacity="0.13" stroke="#d6af62" fill="none">
+    <circle r="150" stroke-width="2"/>
+    <circle r="138" stroke-width="3" stroke-dasharray="4 14"/>
+    <path d="M0 -96 L83.1 -48 L-83.1 -48 Z" stroke-width="1.5"/>
+    <path d="M83.1 48 L-83.1 48 L0 96 Z" stroke-width="1.5"/>
+    <circle r="58" stroke-width="1.5"/>
+    <circle r="14" stroke-width="2"/>
+    <circle r="4" fill="#d6af62" stroke="none"/>
+  </g>
+  <!-- chat panel -->
+  <rect x="196" y="24" width="500" height="372" rx="14" fill="#1c2317" stroke="#2f3d25" stroke-width="1"/>
+  <rect x="216" y="48" width="120" height="12" rx="6" fill="#ece4cc"/>
+  <rect x="216" y="76" width="340" height="60" rx="10" fill="#222a1c" stroke="#35452a"/>
+  <rect x="216" y="150" width="300" height="60" rx="10" fill="#2b3524" stroke="#3a4a2c"/>
+  <rect x="216" y="224" width="360" height="60" rx="10" fill="#222a1c" stroke="#35452a"/>
+  <rect x="216" y="316" width="440" height="56" rx="12" fill="#20271a" stroke="#3a4a2c"/>
+  <circle cx="660" cy="344" r="14" fill="#b98a3e"/>
+  <!-- petals -->
+  <path d="M120 60 C123 63 124.4 66.6 120 73.8 C115.6 66.6 117 63 120 60 Z" fill="#d6af62" opacity="0.45"/>
+  <path d="M300 120 C303 123 304.4 126.6 300 133.8 C295.6 126.6 297 123 300 120 Z" fill="#9cb490" opacity="0.4"/>
+  <path d="M640 90 C643 93 644.4 96.6 640 103.8 C635.6 96.6 637 93 640 90 Z" fill="#e0ac92" opacity="0.45"/>
+  <!-- corner ornaments -->
+  <g transform="translate(8,8)" stroke="#d6af62" fill="none" opacity="0.4">
+    <path d="M4 72 C4 28, 28 4, 72 4" stroke-width="2"/>
+    <path d="M4 60 C4 34, 34 4, 60 4" stroke-width="1" opacity="0.7"/>
+  </g>
+</svg>
