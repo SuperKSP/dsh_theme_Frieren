@@ -14,6 +14,11 @@ Cordis 事件、不触达模型请求；卸载即完全复原。
   <br><sub>浅色主题</sub>
 </p>
 
+<p align="center">
+  <img src="docs/screenshot-conversation.png" width="720" alt="对话中（暗色）">
+  <br><sub>对话中 · 立绘自动缩小退让（暗色 · 文字已脱敏）</sub>
+</p>
+
 > 灵感来源：[小黑盒帖子《哥们，这还是deepseek harness吗？》](https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=a37a724ef813&new_post_share_style=true)
 > 展示的「Abyssal Maid Atelier」皮肤（[dsh-deep-whale / maid-atelier](https://github.com/Small-tailqwq/dsh-deep-whale)）。
 
