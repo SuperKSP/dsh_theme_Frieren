@@ -1,13 +1,21 @@
-# dsh-client-ui-skin-frieren · 葬送的芙莉莲皮肤
+# dsh_theme_Frieren · 葬送的芙莉莲皮肤
 
 DeepSeek Harness Web GUI 的 **芙莉莲主题皮肤**：羊皮纸与金线、手绘魔法阵、
-魔法书角落纹饰与缓缓飘落的花瓣。纯展示层客户端插件——`apply()` 在 `<body>`
-上设置 `data-dsh-frieren` 作用域，按亮/暗主题覆盖整套设计令牌（`--dsw-*`），
-以独立透明层挂载魔法阵水印、四角纹饰与花瓣；`ctx.effect` 销毁器还原全部
-CSS/DOM 写入。不注入服务、不发出 Cordis 事件、不触达模型请求。
+魔法书角落纹饰与缓缓飘落的花瓣。纯展示层客户端插件——不注入服务、不发出
+Cordis 事件、不触达模型请求；卸载即完全复原。
 
-灵感来源：[小黑盒帖子《哥们，这还是deepseek harness吗？》](https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=a37a724ef813&new_post_share_style=true)
-展示的「Abyssal Maid Atelier」皮肤（[dsh-deep-whale / maid-atelier](https://github.com/Small-tailqwq/dsh-deep-whale)）。
+<p align="center">
+  <img src="docs/screenshot-dark.png" width="720" alt="暗色主题">
+  <br><sub>暗色主题</sub>
+</p>
+
+<p align="center">
+  <img src="docs/screenshot-light.png" width="720" alt="浅色主题">
+  <br><sub>浅色主题</sub>
+</p>
+
+> 灵感来源：[小黑盒帖子《哥们，这还是deepseek harness吗？》](https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=a37a724ef813&new_post_share_style=true)
+> 展示的「Abyssal Maid Atelier」皮肤（[dsh-deep-whale / maid-atelier](https://github.com/Small-tailqwq/dsh-deep-whale)）。
 
 ## 特性
 
@@ -99,7 +107,7 @@ dsh-client-ui-skin-frieren/
 ├── lib/
 │   ├── index.js          # 宿主侧空入口（无行为）
 │   └── client.js         # 皮肤本体：令牌覆盖 + SVG 艺术 + 生命周期
-├── preview/              # 亮/暗预览图（SVG）
+├── docs/                 # 亮/暗真实截图（README 预览图）
 └── persona/              # 芙莉莲 Agent 预设 + 六人旅团子代理提示词
 ```
 
