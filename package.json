@@ -37,7 +37,7 @@
     "lib/client.js",
     "cordis.patch.yml",
     "skin.json",
-    "preview",
+    "docs",
     "persona",
     "tests",
     "tools",
