@@ -15,7 +15,7 @@ Cordis 事件、不触达模型请求；卸载即完全复原。
 </p>
 
 <p align="center">
-  <img src="docs/screenshot-conversation.png" width="720" alt="对话中（暗色）">
+  <img src="docs/screenshot-conversation.png?v=2" width="720" alt="对话中（暗色）">
   <br><sub>对话中 · 立绘自动缩小退让（暗色）</sub>
 </p>
 
