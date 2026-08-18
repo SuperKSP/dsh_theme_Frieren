@@ -22,8 +22,8 @@
     "bundleWired": false
   },
   "preview": {
-    "light": "preview/light.svg",
-    "dark": "preview/dark.svg"
+    "light": "docs/screenshot-light.png",
+    "dark": "docs/screenshot-dark.png"
   },
   "order": 1
 }
